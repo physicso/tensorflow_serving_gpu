@@ -5,8 +5,11 @@ There exists few documentation introducing TensorFlow Serving Docker configurati
 # Method
 
 The Dockerfile mainly comes from the official repo of TensorFlow Serving:
+
 https://github.com/tensorflow/serving/blob/master/tensorflow_serving/tools/docker/Dockerfile.devel-gpu
+
 It needs to be noted that one modification needs to be done:
+
 `ENV BAZEL_VERSION 0.5.4`
 
 # Note
