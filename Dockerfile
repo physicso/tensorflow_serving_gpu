@@ -106,4 +106,7 @@ RUN bazel build -c opt --config=cuda \
     cp bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server /usr/local/bin/ && \
     bazel clean --expunge
 
+# Install TensorFlow-GPU and PIL
+RUN pip install tensorflow_gpu pillow
+
 CMD ["/bin/bash"]
