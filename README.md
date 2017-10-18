@@ -14,4 +14,8 @@ It needs to be noted that one modification needs to be done:
 
 # Note
 
+Please refer to the built image on Docker Hub:
+
+https://hub.docker.com/r/physicso/tf_serving_gpu/
+
 Hope you enjoy this docker image :)
